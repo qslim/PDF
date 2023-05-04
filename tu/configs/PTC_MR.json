@@ -1,0 +1,23 @@
+{
+  "dataset_name": "PTC_MR",
+  "basis": "DEN",
+  "epsilon": [-0.3, -0.35, -0.4],
+  "power": [[1, 8], [1, 8], [1, 8]],
+  "seeds": [0],
+  "num_folds": 10,
+  "num_workers": 4,
+  "hyperparams": {
+    "batch_size": 64,
+    "epochs": 151,
+    "learning_rate": 0.001,
+    "step_size": 30,
+    "decay_rate": 0.65
+  },
+  "architecture": {
+    "nonlinear": "GELU",
+    "layers": 6,
+    "hidden": 128,
+    "pooling": "X",
+    "dropout": 0
+  }
+}

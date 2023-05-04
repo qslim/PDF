@@ -1,0 +1,24 @@
+{
+  "dataset_name": "MUTAG",
+  "basis": "DEN",
+  "epsilon": [-0.2, -0.25, -0.3],
+  "power": [[1, 5], [1, 5], [1, 5]],
+  "basis_norm": "N",
+  "seeds": [0],
+  "num_folds": 10,
+  "num_workers": 8,
+  "hyperparams": {
+    "batch_size": 64,
+    "epochs": 301,
+    "learning_rate": 0.001,
+    "step_size": 50,
+    "decay_rate": 0.6
+  },
+  "architecture": {
+    "nonlinear": "GELU",
+    "layers": 4,
+    "hidden": 256,
+    "pooling": "X",
+    "dropout": 0
+  }
+}

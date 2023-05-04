@@ -1,0 +1,27 @@
+{
+  "dataset_name": "REDDIT-BINARY",
+  "basis": "SPA",
+  "epsilon": [-0.3, -0.35, -0.4],
+  "power": [[1, 2], [1, 2], [1, 2]],
+  "edgehop": 1,
+  "basis_norm": "Y",
+  "seeds": [0],
+  "num_folds": 10,
+  "num_workers": 8,
+  "hyperparams": {
+    "batch_size": 64,
+    "epochs": 301,
+    "learning_rate": 0.001,
+    "step_size": 50,
+    "decay_rate": 0.6
+  },
+  "architecture": {
+    "nonlinear": "GELU",
+    "layers": 4,
+    "hidden": 256,
+    "pooling": "X",
+    "dropout": 0,
+    "edge_softmax": "N",
+    "batch_norm": "Y"
+  }
+}
