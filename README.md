@@ -1,8 +1,8 @@
 # Towards Better Graph Representation Learning with <u>P</u>arameterized <u>D</u>ecomposition & <u>F</u>iltering
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2305.06102-b31b1b.svg)](https://arxiv.org/abs/2305.06102) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-better-graph-representation-learning/graph-regression-on-zinc-500k)](https://paperswithcode.com/sota/graph-regression-on-zinc-500k?p=towards-better-graph-representation-learning)
 
-This is the code of the paper "Towards Better Graph Representation Learning with Parameterized Decomposition & Filtering".
+This is the code of the paper "Towards Better Graph Representation Learning with <u>P</u>arameterized <u>D</u>ecomposition & <u>F</u>iltering".
 
 ## Requirements
 
