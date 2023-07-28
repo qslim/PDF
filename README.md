@@ -39,7 +39,7 @@ The following packages need to be installed:
 ## Reference
 ```
 @inproceedings{yang2023towards,
-  title = {Towards Better Graph Representation Learning with Parameterized Decomposition & Filtering},
+  title = {Towards Better Graph Representation Learning with Parameterized Decomposition \& Filtering},
   author = {Mingqi Yang and Wenjie Feng and Yanming Shen and Bryan Hooi},
   booktitle = {Proceedings of the 40th International Conference on Machine Learning},
   year = {2023},
