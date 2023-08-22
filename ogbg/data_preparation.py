@@ -164,6 +164,7 @@ def read_graph_dgl(config, raw_dir, add_inverse_edge=False, additional_node_file
         # _num_edges = g.edata['feat'].shape[0]
         if basis != 'SPA' or edgehop != 1:
             g.edata['feat'] = g.edata['feat'] + 1  # Caution! padding with zeros in edge attr.
+        g = dgl.add_self_loop(g)
         # assert (g.edata['feat'].shape[0] == _num_edges + g.num_nodes())
         g = basis_transform(g, basis=basis, epsilon=epsilon, power=power, degs=degs, edgehop=edgehop)
         # g = dgl.remove_self_loop(g)
